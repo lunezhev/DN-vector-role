@@ -1,0 +1,7 @@
+---
+- name: Converge
+  hosts: all
+  tasks:
+    - name: "Include DN-vector-role"
+      include_role:
+        name: "DN-vector-role"
